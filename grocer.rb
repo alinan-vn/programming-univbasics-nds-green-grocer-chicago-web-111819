@@ -88,6 +88,8 @@ def apply_clearance(cart)
     if cart[i][:clearance]
       cart[i][:price] = cart[i][:price] * .80
       cart[i][:price].float 
+    else 
+      
     end 
     i += 1 
   return cart 
