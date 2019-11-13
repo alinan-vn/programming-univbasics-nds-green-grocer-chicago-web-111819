@@ -116,7 +116,7 @@ def checkout(cart, coupons)
   end 
   
   if sum > 100 
-    new_sum = (sum - (sum * .10)).round(2)
+    new_sum = (sum - (sum * 0.10)).round(2)
     return new_sum
   else 
     return sum 
