@@ -112,7 +112,7 @@ def checkout(cart, coupons)
   sum = 0 
   while i < newest_cart.length do 
     sum += newest_cart[i][:price] * newest_cart[i][:count]
-    i =+ 1 
+    i += 1 
   end 
   
   if sum > 100 
