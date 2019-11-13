@@ -51,7 +51,13 @@ def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
-  
+  i = 0 
+  while i < coupons.length 
+    item = find_item_by_name_in_collection(coupons[i][:item], cart)
+    
+    
+    i += 1
+  end 
   
   
   
